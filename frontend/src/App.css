@@ -1,0 +1,74 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+
+.contact-list-col,
+.conversation-view-col {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.contact-list-col {
+  border-right: 1px solid #2c2c2c;
+}
+
+.list-group-item {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-color: #2c2c2c;
+}
+
+.list-group-item:hover {
+  background-color: #2c2c2c;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-color: #2c2c2c;
+}
+
+.card-header {
+  background-color: #2c2c2c;
+  border-color: #2c2c2c;
+}
+
+.bg-light {
+  background-color: #2c2c2c !important;
+  color: #ffffff !important;
+}
+
+.text-muted {
+  color: #a0a0a0 !important;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+.spinner-border {
+  color: #ffffff;
+}
+
+@media (max-width: 991.98px) {
+  .contact-list-col,
+  .conversation-view-col {
+    height: 50vh;
+  }
+
+  .contact-list-col {
+    border-right: none;
+    border-bottom: 1px solid #2c2c2c;
+  }
+}
